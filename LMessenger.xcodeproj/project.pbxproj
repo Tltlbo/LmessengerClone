@@ -17,6 +17,15 @@
 		4E1489DB2B6E860800F92EA5 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489DA2B6E860800F92EA5 /* AuthenticationService.swift */; };
 		4E1489DF2B6E87EF00F92EA5 /* LoginIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489DE2B6E87EF00F92EA5 /* LoginIntroView.swift */; };
 		4E1489E12B6E880700F92EA5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489E02B6E880700F92EA5 /* MainTabView.swift */; };
+		4E1489E52B6F7FC000F92EA5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489E42B6F7FC000F92EA5 /* LoginView.swift */; };
+		4E1489E72B6F812300F92EA5 /* LoginButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489E62B6F812300F92EA5 /* LoginButtonStyle.swift */; };
+		4E1489EA2B6FD70800F92EA5 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 4E1489E92B6FD70800F92EA5 /* GoogleSignIn */; };
+		4E1489ED2B6FD80200F92EA5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489EC2B6FD80200F92EA5 /* User.swift */; };
+		4E1489EF2B6FD84E00F92EA5 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489EE2B6FD84E00F92EA5 /* ServiceError.swift */; };
+		4E1489F22B7118A400F92EA5 /* MainTabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489F12B7118A400F92EA5 /* MainTabType.swift */; };
+		4E1489F62B7119B500F92EA5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489F52B7119B500F92EA5 /* HomeView.swift */; };
+		4E1489F82B7119C000F92EA5 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489F72B7119C000F92EA5 /* ChatListView.swift */; };
+		4E1489FA2B711E2700F92EA5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1489F92B711E2700F92EA5 /* HomeViewModel.swift */; };
 		723ABD872AFFF1B800C260F1 /* LMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723ABD862AFFF1B800C260F1 /* LMessengerApp.swift */; };
 		723ABD892AFFF1B800C260F1 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723ABD882AFFF1B800C260F1 /* AuthenticatedView.swift */; };
 		723ABD8B2AFFF1B900C260F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723ABD8A2AFFF1B900C260F1 /* Assets.xcassets */; };
@@ -56,6 +65,14 @@
 		4E1489DA2B6E860800F92EA5 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		4E1489DE2B6E87EF00F92EA5 /* LoginIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIntroView.swift; sourceTree = "<group>"; };
 		4E1489E02B6E880700F92EA5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		4E1489E42B6F7FC000F92EA5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4E1489E62B6F812300F92EA5 /* LoginButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonStyle.swift; sourceTree = "<group>"; };
+		4E1489EC2B6FD80200F92EA5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4E1489EE2B6FD84E00F92EA5 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		4E1489F12B7118A400F92EA5 /* MainTabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabType.swift; sourceTree = "<group>"; };
+		4E1489F52B7119B500F92EA5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4E1489F72B7119C000F92EA5 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		4E1489F92B711E2700F92EA5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		723ABD832AFFF1B800C260F1 /* LMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		723ABD862AFFF1B800C260F1 /* LMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMessengerApp.swift; sourceTree = "<group>"; };
 		723ABD882AFFF1B800C260F1 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
@@ -76,6 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E1489D62B6E844000F92EA5 /* FirebaseAuth in Frameworks */,
+				4E1489EA2B6FD70800F92EA5 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +127,7 @@
 			children = (
 				4E1489C92B6E30CB00F92EA5 /* Service.swift */,
 				4E1489DA2B6E860800F92EA5 /* AuthenticationService.swift */,
+				4E1489EE2B6FD84E00F92EA5 /* ServiceError.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -116,6 +135,8 @@
 		4E1489CB2B6E315200F92EA5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4E1489F42B71199E00F92EA5 /* ChatList */,
+				4E1489F32B71199000F92EA5 /* Home */,
 				4E1489DD2B6E87D200F92EA5 /* MainTabView */,
 				4E1489DC2B6E87CC00F92EA5 /* Login */,
 				4E1489CC2B6E315E00F92EA5 /* Authtentication */,
@@ -143,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				4E1489DE2B6E87EF00F92EA5 /* LoginIntroView.swift */,
+				4E1489E42B6F7FC000F92EA5 /* LoginView.swift */,
+				4E1489E62B6F812300F92EA5 /* LoginButtonStyle.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -151,8 +174,34 @@
 			isa = PBXGroup;
 			children = (
 				4E1489E02B6E880700F92EA5 /* MainTabView.swift */,
+				4E1489F12B7118A400F92EA5 /* MainTabType.swift */,
 			);
 			path = MainTabView;
+			sourceTree = "<group>";
+		};
+		4E1489EB2B6FD7F400F92EA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E1489EC2B6FD80200F92EA5 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E1489F32B71199000F92EA5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4E1489F52B7119B500F92EA5 /* HomeView.swift */,
+				4E1489F92B711E2700F92EA5 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4E1489F42B71199E00F92EA5 /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				4E1489F72B7119C000F92EA5 /* ChatListView.swift */,
+			);
+			path = ChatList;
 			sourceTree = "<group>";
 		};
 		723ABD7A2AFFF1B800C260F1 = {
@@ -179,6 +228,7 @@
 		723ABD852AFFF1B800C260F1 /* LMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				4E1489EB2B6FD7F400F92EA5 /* Model */,
 				4E1489D92B6E85A800F92EA5 /* Info.plist */,
 				723ABD862AFFF1B800C260F1 /* LMessengerApp.swift */,
 				4E1489D22B6E835600F92EA5 /* AppDelegate.swift */,
@@ -254,6 +304,7 @@
 			name = LMessenger;
 			packageProductDependencies = (
 				4E1489D52B6E844000F92EA5 /* FirebaseAuth */,
+				4E1489E92B6FD70800F92EA5 /* GoogleSignIn */,
 			);
 			productName = LMessenger;
 			productReference = 723ABD832AFFF1B800C260F1 /* LMessenger.app */;
@@ -329,6 +380,7 @@
 			mainGroup = 723ABD7A2AFFF1B800C260F1;
 			packageReferences = (
 				4E1489D12B6E822300F92EA5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				4E1489E82B6FD70800F92EA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			productRefGroup = 723ABD842AFFF1B800C260F1 /* Products */;
 			projectDirPath = "";
@@ -375,6 +427,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1489ED2B6FD80200F92EA5 /* User.swift in Sources */,
+				4E1489FA2B711E2700F92EA5 /* HomeViewModel.swift in Sources */,
 				4E1489DF2B6E87EF00F92EA5 /* LoginIntroView.swift in Sources */,
 				4E1489CE2B6E319900F92EA5 /* AuthenticationViewModel.swift in Sources */,
 				4E1489C72B6E307100F92EA5 /* DIContainer.swift in Sources */,
@@ -382,9 +436,15 @@
 				4E1489CA2B6E30CB00F92EA5 /* Service.swift in Sources */,
 				4E1489D32B6E835600F92EA5 /* AppDelegate.swift in Sources */,
 				72E4BEFC2B00B871007A1060 /* Color+Extension.swift in Sources */,
+				4E1489F22B7118A400F92EA5 /* MainTabType.swift in Sources */,
+				4E1489E72B6F812300F92EA5 /* LoginButtonStyle.swift in Sources */,
 				723ABD872AFFF1B800C260F1 /* LMessengerApp.swift in Sources */,
+				4E1489E52B6F7FC000F92EA5 /* LoginView.swift in Sources */,
 				4E1489DB2B6E860800F92EA5 /* AuthenticationService.swift in Sources */,
+				4E1489F62B7119B500F92EA5 /* HomeView.swift in Sources */,
+				4E1489EF2B6FD84E00F92EA5 /* ServiceError.swift in Sources */,
 				4E1489E12B6E880700F92EA5 /* MainTabView.swift in Sources */,
+				4E1489F82B7119C000F92EA5 /* ChatListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,6 +781,14 @@
 				minimumVersion = 10.20.0;
 			};
 		};
+		4E1489E82B6FD70800F92EA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -728,6 +796,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4E1489D12B6E822300F92EA5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
+		};
+		4E1489E92B6FD70800F92EA5 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E1489E82B6FD70800F92EA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
